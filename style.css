@@ -7,13 +7,13 @@ body {
 }
 
 .container {
-	max-width: 390px;
+	max-width: 400px;
 }
 
 .inner {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 200px 200px 200px;
+	grid-template-rows: 250px 250px 180px;
 }
 
 .img {
@@ -42,4 +42,19 @@ body {
 
 .usercard {
 	text-align: center;
+}
+.button-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+.counter{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.count{
+	font-size: 18px;
+	color: var(--tg-theme-text-color);
 }
